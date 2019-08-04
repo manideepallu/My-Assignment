@@ -9,7 +9,7 @@
 <body>
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script>
-        var url = "https://gist.githubusercontent.com/d3byex/30231953acaa9433a46f/raw/6c7eb1c562de92bdf8d0cd99c6912048161c187e/fert_pop_exp.csv";
+        var url = "fert_pop_exp.csv";
         d3.csv(url, function (error, rawData) {
             var data = rawData.map(function (d) {
                 return {
